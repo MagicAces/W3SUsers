@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+:root {
+  --text-color: #002a5e;
+  --background-color-1: #f5f5f5;
+  --background-color-2: #ffffff;
+  --border-color-1: #6FA6D6;
+  --border-color-2: #F1F1F1;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

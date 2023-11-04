@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+:root {
+    --text-color: #002a5e;
+    --background-color-1: #dddddd;
+    --background-color-2: #ffffff;
+    --border-color-1: #6FA6D6;
+    --border-color-2: #808080;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--text-color) !important;
+    /* background-image: url("https://transparenttextures.com/patterns/escheresque.png"); */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: var(--background-color-1) !important;
+}
+
+#content {
+    width: 80%;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto;
+    background-color: var(--background-color-2);
+    box-shadow: 0px 0px 3px 2px var(--border-color-2);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    border-bottom: 1px solid var(--border-color-1);
+}
+
+.content-nav {
+
+}
+
+.table {
+    border-radius: 1rem !important;
+}
+
+.table> :not(caption) > * > * {
+    color: var(--text-color) !important;
+}

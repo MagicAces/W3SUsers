@@ -1,0 +1,125 @@
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    color: var(--text-color) !important;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    background-color: var(--background-color-1);
+}
+  
+
+.content .content-header {
+    display: flex;
+    background-color: var(--text-color);
+    color: var(--background-color-2);
+    padding: 1rem 1.3rem;
+    align-items: center;
+    flex-basis: 40px;
+    box-shadow: 0 1px 3px 0 var(--border-color-1);
+}
+
+.content .content-header h1 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: flex-end;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.content .content-body {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.content .content-body .content-body-container {
+    background-color: var(--background-color-2);
+    flex-grow: 1;
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: 0 0 3px 0.5px var(--border-color-1);
+    padding: 2rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.content .content-body .content-body-container .controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .content-body .content-body-container .controls .row-box {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content .content-body .content-body-container .controls .row-box span {
+    font-weight: 400;
+}
+
+.content .content-body .content-body-container .controls .row-box select {
+    width: fit-content;
+    padding: 0.5rem 0.8rem;
+    background-color: var(--background-color-2);
+    box-shadow: 0 0 1px 1px var(--border-color-1);
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.content .content-body .content-body-container .controls .search-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.content .content-body .content-body-container .controls .search-box svg:first-of-type {
+    position: absolute;
+    left: 0.5rem;
+}
+
+.content .content-body .content-body-container .controls .search-box input {
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.8rem;
+    background-color: var(--background-color-2);
+    box-shadow: 0 0 1px 1px var(--border-color-1);
+}
+
+.content .content-body .content-body-container .controls .search-box svg:last-of-type {
+    position: absolute;
+    right: 1rem;
+}
+
+.content .content-body .content-body-container .controls .search-box svg:last-of-type:hover {
+    cursor: pointer;
+    color: var(--border-color-1)
+}
+
+.content .content-body .content-body-container .values {
+    width: 100%;
+}
+
+.content .content-body .content-body-container .values table {
+    margin-bottom: 0;
+}
+
+.content .content-body .content-body-container .values th {
+    background-color: var(--border-color-2);
+    font-weight: 500;
+}
